@@ -1,0 +1,20 @@
+footer{
+    background-color: rgba(49, 13, 83, 0.636);
+}
+.row>img{
+    border-radius: 50%;
+}
+div>a{
+    text-decoration: none;
+    color: rgba(192, 120, 20, 0.565);
+    font-weight: bold;
+    font-size: large;
+    font-family: SimSun-ExtB;
+    
+}
+.mb-md-0{
+    margin-right: 16%;
+}
+.w-100{
+    border-radius: 30%;
+}

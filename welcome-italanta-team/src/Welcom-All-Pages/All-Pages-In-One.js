@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import DessaiKibeho from './DessaiKibeho/DessaiKibeho'
 import Shukri from './Shukri/Shukri'
 import Home from './HomePage/Home'
+import Footer from './Footer/Footer'
 
 function AllPagesInOne() {
   return (
@@ -11,6 +12,8 @@ function AllPagesInOne() {
               <Route path='/' element={<Home/>}/>
               <Route path='/DessaiKibeho' element={<DessaiKibeho/>} />
               <Route path='/shukri' element={<Shukri/>} />
+             
+
           </Routes>
       </Router>
 
