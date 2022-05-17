@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+import"./Welcom-All-Pages/Welcom.css"
+import DessaiKibeho from "./Welcom-All-Pages/DessaiKibeho/DessaiKibeho"
+import WelcomePage from './Welcom-All-Pages/WelcomePage';
+import AllPagesInOne from './Welcom-All-Pages/All-Pages-In-One';
+
+
+
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  return(
+    <body>
+      <WelcomePage/>
+      <AllPagesInOne/>
+
+    </body>
+  )
+    
+    }
+
 
 export default App;
