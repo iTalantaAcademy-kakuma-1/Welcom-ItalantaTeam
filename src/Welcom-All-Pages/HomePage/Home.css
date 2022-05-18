@@ -2,7 +2,7 @@
 .Title>img{
 margin-top: 2%;
  width: 1450px;
- height:400px;
+ height:500px;
 
 }
 .Title{
@@ -13,12 +13,26 @@ margin-top: 2%;
     text-align: center;
    font-weight: bold;
    color: rgb(7, 7, 94);
+   margin-top: 2%;
 
 }
 .Next{
     position: relative;
+    bottom: 10px;
     
+    text-align: right;
+    animation: mymove 5s infinite;
+  animation-delay: 2s;
 }
+
+@keyframes mymove {
+  from {left: 200px;}
+  to {left: 500px;}
+}
+
+    
+
 .Next::after{
-    content: ">";
+    content: "> Dessai Kibeho";
+   
 }

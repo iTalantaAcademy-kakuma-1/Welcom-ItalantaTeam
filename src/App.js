@@ -1,5 +1,5 @@
 
-import './App.css';
+
 import"./Welcom-All-Pages/Welcom.css"
 import DessaiKibeho from "./Welcom-All-Pages/DessaiKibeho/DessaiKibeho"
 import WelcomePage from './Welcom-All-Pages/WelcomePage';
@@ -13,17 +13,21 @@ import {useEffect} from "react"
 
 
 function App() {
-useEffect(
-  ()=>{return window.scroll.heigh},[]
-)
+
+
   return(
-    <body className='App' >
+    <div className='App'  >
+      <div>
       <WelcomePage/>
+      </div>
+      <div>
       <AllPagesInOne/>
-      <Footer/> 
-
-
-    </body>
+      </div>
+      <div>
+      <Footer/>
+      </div>
+      
+    </div>
   )
     
     }

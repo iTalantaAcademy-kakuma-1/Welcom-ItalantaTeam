@@ -11,9 +11,7 @@ import { useNavigate } from 'react-router-dom'
         <p>
             dessai Kibeho je sui lsnjsklaha
         </p>
-        <button onClick={()=>{
-          navigate("/shukri")
-        }} > To Shukri</button>
+        
         
         </>
     )

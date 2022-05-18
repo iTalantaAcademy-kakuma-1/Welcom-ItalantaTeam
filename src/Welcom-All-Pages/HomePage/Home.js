@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-import LogoItalanta from "./image/My-project4.jpg"
+import LogoItalanta from "./image/My-project 5.jpg"
 
 function Home() {
   return (
