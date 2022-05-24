@@ -1,7 +1,9 @@
-
+.Title{
+  width: 90%;
+}
 .Title>img{
 margin-top: 2%;
- width: 1450px;
+ width: 1500px;
  height:500px;
 
 }
@@ -35,4 +37,13 @@ margin-top: 2%;
 .Next::after{
     content: "> Dessai Kibeho";
    
+}
+.Title>.welcome{
+  width: 60%;
+  margin-left: 20%;
+
+}
+.Title>.esther{
+  width:20% ;
+  border-radius: 50px;
 }
