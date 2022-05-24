@@ -6,6 +6,7 @@ import WelcomePage from './Welcom-All-Pages/WelcomePage';
 import AllPagesInOne from './Welcom-All-Pages/All-Pages-In-One';
 import Footer from "./Welcom-All-Pages/Footer/Footer"
 import {useEffect} from "react"
+import"./App.css"
 
 
 
