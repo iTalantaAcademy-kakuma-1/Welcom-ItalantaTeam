@@ -305,7 +305,9 @@ main {
   color: var(--clr-primary-1);
 }
 .review{
+  margin: 10%;
   margin-left: 90px;
+  
 }
 .container2>img{
   width: 70%;
@@ -466,6 +468,10 @@ h1 span {
     width: 0;
     text-indent: 0;
   }
+}
+.info>q{
+  font-size: 30px;
+  font: 1.8rem/1.4 Georgia, serif;
 }
 
 

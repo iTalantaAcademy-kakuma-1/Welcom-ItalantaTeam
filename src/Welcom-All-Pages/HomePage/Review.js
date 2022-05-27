@@ -43,7 +43,7 @@ const Review = () => {
       </div>
       <h4 className='author'>{name}</h4>
       <p className='job'>{job}</p>
-      <p className='info'>{text}</p>
+      <p className='info'><q>{text}</q></p>
       <div className='button-container'>
         <button className='prev-btn' onClick={prevPerson}>
           <FaChevronLeft />
@@ -52,9 +52,7 @@ const Review = () => {
           <FaChevronRight />
         </button>
       </div>
-      <button className='random-btn' onClick={randomPerson}>
-        surprise me
-      </button>
+      
     </article>
   );
 };
