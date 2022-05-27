@@ -1,9 +1,15 @@
 import React, { useState } from 'react';
 import people from './data';
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
+import DessaiKibeho from '../DessaiKibeho/DessaiKibeho'
+import  GoToDessai from '../DessaiKibeho/GoToDessai'
+
+import GoToAljabana from '../Aljabana-Elizabeth/GoToAljabana'
 const Review = () => {
   const [index, setIndex] = useState(0);
+  const [myCompnent,setCompnent]=useState()
   const { name, job, image, text } = people[index];
+  
   const checkNumber = (number) => {
     if (number > people.length - 1) {
       return 0;
@@ -17,13 +23,19 @@ const Review = () => {
     setIndex((index) => {
       let newIndex = index + 1;
       return checkNumber(newIndex);
-    });
+    }) 
+    Display()
+   
   };
+
+  
   const prevPerson = () => {
     setIndex((index) => {
       let newIndex = index - 1;
       return checkNumber(newIndex);
     });
+    Display()
+    
   };
   const randomPerson = () => {
     let randomNumber = Math.floor(Math.random() * people.length);
@@ -33,7 +45,29 @@ const Review = () => {
     
   };
 
+  function Display(){
+    
+    if (index==1){
+     
+      setCompnent(<GoToDessai/>)
+      
+      
+      
+    
+    }
+    else if(index==2){
+      setCompnent(<GoToAljabana/>)
+    }
+    else{
+      setCompnent(' ')
+    }
+
+  }; 
+ console.log(myCompnent)
+
   return (
+    
+    
     <article className='review'>
       <div className='img-container'>
         <img src={image} alt={name} className='person-img' />
@@ -43,7 +77,7 @@ const Review = () => {
       </div>
       <h4 className='author'>{name}</h4>
       <p className='job'>{job}</p>
-      <p className='info'><q>{text}</q></p>
+      <p className='info'><q>{text} <p id='GoTo'>{myCompnent}</p></q></p>
       <div className='button-container'>
         <button className='prev-btn' onClick={prevPerson}>
           <FaChevronLeft />
@@ -52,6 +86,8 @@ const Review = () => {
           <FaChevronRight />
         </button>
       </div>
+      
+     
       
     </article>
   );

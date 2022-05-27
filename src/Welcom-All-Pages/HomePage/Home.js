@@ -38,7 +38,6 @@ function Home() {
         <h2>Our Thanks To You</h2>
       
       <img src={ThankAll}  alt="loading..." />
-      <Link to='/dessaikibeho' style={{color:'blue', fontSize:'50px'}} >-</Link>
       <Review/>
     </div>
     </section>
