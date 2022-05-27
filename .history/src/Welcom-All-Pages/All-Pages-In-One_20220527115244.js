@@ -5,7 +5,7 @@ import Shukri from './Shukri/Shukri'
 import Home from './HomePage/Home'
 import Footer from './Footer/Footer'
 import Aljabana from "./Aljabana-Elizabeth/Aljabana"
-import Mahdi from './Mahdi/Mahdi'
+
 
 function AllPagesInOne() {
   return (
@@ -14,7 +14,6 @@ function AllPagesInOne() {
               <Route path='/' element={<Home/>}/>
               <Route path='/DessaiKibeho' element={<DessaiKibeho/>} />
               <Route path='/Aljabana' element={<Aljabana/>} />
-              <Route path='/Mahdi' element={<Mahdi/>}/>
              
 
           </Routes>
