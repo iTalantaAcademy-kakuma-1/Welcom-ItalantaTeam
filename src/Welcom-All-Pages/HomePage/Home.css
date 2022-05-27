@@ -307,6 +307,7 @@ main {
 .review{
   margin: 10%;
   margin-left: 90px;
+  border-radius: 30px;
   
 }
 .container2>img{
