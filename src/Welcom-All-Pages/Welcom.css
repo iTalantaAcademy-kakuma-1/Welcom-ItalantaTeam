@@ -4,10 +4,17 @@ body {
     font-family: "Poppins", sans-serif;
   
 }
-
+.bg-light{
+    padding: 2px;
+}
+.navbar-brand{
+    padding: -200px;
+}
 .navbar-brand>img{
-    width: 10%;
-    border-radius: 50%;
+    width: 20%;
+    
+    border-radius: 70px;
+    padding: 0%;
 }
 .bg-light{
     padding-left: 10%;

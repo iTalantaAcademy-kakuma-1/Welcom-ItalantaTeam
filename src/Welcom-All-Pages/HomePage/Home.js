@@ -1,24 +1,47 @@
 import React from 'react'
 import "./Home.css"
-import LogoItalanta from "./image/My-project 5.jpg"
+import LogoItalanta from "./image/home2.jpg"
 import{Link} from "react-router-dom"
 import welcome from'./image/welcome.gif'
-import Esther from "./image/esther2.png"
+import Esther from "./image/esther3.png"
+import Peter from "./image/peter1.png"
+import Review from './Review'
+import ThankAll from"./image/thankAll.jpg"
+
 
 
 function Home() {
   return (
+    <section className='container1'>
     <div className='Title'>
       <img src={LogoItalanta}  alt="loading..." />
-      <img className='welcome' src="https://www.animatedimages.org/data/media/707/animated-welcome-image-0291.gif"  alt="loading..." />
-      <img className='esther' src={Esther}  alt="loading..." />
+      <h3 className='welc'>Welcome to Kakuma</h3>
+      <div className='container11'>
+           
+          <img src={Peter} alt='loading'/>
+          <h1>
+  
+  <div className="message">
+    <div className="word1">Peter</div>
+    <div className="word2">Ether</div>
+    <div className="word3">Welcome</div>
+  </div>
+</h1>
+          <img src={Esther} alt='loading'/>
+          
+
+        </div>
+      </div>
       
-
-      <h1>Thank You!</h1>
-      <Link to='/dessaikibeho' style={{color:'blue', fontSize:'70px'}} className='Next'>-</Link>
-
-
+      <div className='container2'>
+        
+        <h2>Our Thanks To You</h2>
+      
+      <img src={ThankAll}  alt="loading..." />
+      <Link to='/dessaikibeho' style={{color:'blue', fontSize:'50px'}} >-</Link>
+      <Review/>
     </div>
+    </section>
   )
 }
 

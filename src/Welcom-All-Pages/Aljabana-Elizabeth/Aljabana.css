@@ -1,3 +1,4 @@
+
 .header1{
 
 
@@ -14,15 +15,17 @@ width: 50%;
     right: 100px;
     width: 550px;
     height: 450px;
-   border: black solid;
+   border: rgb(255, 255, 255) solid;
    padding: 2%;
    padding-left: 5%;
    margin-left: 10%;
-    font-size: 140%;
+    font-size: 145%;
     font-weight: bold;
     font-family: Gabriola;
     border-radius: 50px;
     text-align: center;
+    background-image: url(./images/background.jpg);
+    color: rgb(255, 255, 255);
     
     
    

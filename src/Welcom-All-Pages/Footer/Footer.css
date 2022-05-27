@@ -1,12 +1,12 @@
 footer{
-    background-color: rgba(49, 13, 83, 0.636);
+    background-color: #F8F9FA;
 }
 .row>img{
     border-radius: 50%;
 }
 div>a{
     text-decoration: none;
-    color: rgba(192, 120, 20, 0.565);
+    color: #54A6EA;
     font-weight: bold;
     font-size: large;
     font-family: SimSun-ExtB;
@@ -17,4 +17,10 @@ div>a{
 }
 .w-100{
     border-radius: 30%;
+}
+.p-3{
+    color: #54A6EA;
+}
+.ext-black{
+    color: #54A6EA;
 }

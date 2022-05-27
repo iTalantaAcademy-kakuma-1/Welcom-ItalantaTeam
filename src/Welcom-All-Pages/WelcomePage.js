@@ -1,5 +1,5 @@
 import"./Welcom.css"
-import Logo1 from "./HomePage/image/My-project1.jpg"
+import Logo1 from "./HomePage/image/home1.jpg"
 import { Link } from "react-router-dom"
 const WelcomePage=()=>{
 

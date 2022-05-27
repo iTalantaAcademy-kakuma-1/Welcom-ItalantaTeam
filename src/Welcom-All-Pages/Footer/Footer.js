@@ -76,8 +76,9 @@ function Footer() {
     <div className="text-center p-3" >
       © 2022 Copyright:
       <a className="text-black" href="https://github.com/iTalantaAcademy-kakuma-1"> Welcome-ITalantaTeam GitHUb</a>
+    <br/> <p>Welcome ITalantaTeam</p> 
     </div>
-    Welcome ITalantaTeam
+   
   </footer>
   )
 }
