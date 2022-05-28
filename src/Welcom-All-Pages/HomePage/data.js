@@ -124,12 +124,12 @@ const reviews = [
   {
     
     id: 14,
-  name: 'Lotiang',
+  name: 'Mahdi Adam',
   job: 'web developer',
   image:
     'https://scontent.fmba5-1.fna.fbcdn.net/v/t1.18169-9/18740032_1038722656259667_7125627160059408390_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHN-dCtnpf-2p8xk5MdZ6g-F2G_T2rEvZIXYb9PasS9khUe6KXtaLNAX3TNhZU4V9VAYasm7tZJUw750x_Jn3OE&_nc_ohc=YuKi_Bc4OyEAX-uDGyf&tn=IY5Chl1swJgQw5rr&_nc_ht=scontent.fmba5-1.fna&oh=00_AT-g9VW4nJE07iOF1bg5RnjukNa_6Q36RKTFaIjjVFLoKg&oe=62B413BC',
   text:
-    "Am glad and greatful to be in this program and i have really feel the impact of the training and i would like to give thanks to Elewa and Windle for the program.",
+    "I as Mahdi I would like thank you all Microsoft /Elewa /iTalanta as well as Windle International Kenya and my deeply respected thanks goes to you Peter and Esther.Also especial thanks to the Windle scholarship Department Thank you all and God Bless You all.",
 },
   
 ];

@@ -7,12 +7,8 @@ import { useNavigate } from 'react-router-dom'
     let navigate=useNavigate()
     return(
         <>
-        <img className="imageKdk" src={dessaiImage} alt="loarding..." />
-        <p>
-            dessai Kibeho je sui lsnjsklaha
-        </p>
-        
-        
+       
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Fj_IyStiH9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </>
     )
 }
