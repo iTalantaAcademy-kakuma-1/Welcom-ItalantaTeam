@@ -23,7 +23,7 @@ function Home() {
   
   <div className="message">
     <div className="word1">Peter</div>
-    <div className="word2">Ether</div>
+    <div className="word2">Esther</div>
     <div className="word3">Welcome</div>
   </div>
 </h1>
