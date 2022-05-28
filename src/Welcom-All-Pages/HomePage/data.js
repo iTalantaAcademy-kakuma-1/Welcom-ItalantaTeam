@@ -127,9 +127,19 @@ const reviews = [
   name: 'Mahdi Adam',
   job: 'web developer',
   image:
-    'https://scontent.fmba5-1.fna.fbcdn.net/v/t1.18169-9/18740032_1038722656259667_7125627160059408390_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHN-dCtnpf-2p8xk5MdZ6g-F2G_T2rEvZIXYb9PasS9khUe6KXtaLNAX3TNhZU4V9VAYasm7tZJUw750x_Jn3OE&_nc_ohc=YuKi_Bc4OyEAX-uDGyf&tn=IY5Chl1swJgQw5rr&_nc_ht=scontent.fmba5-1.fna&oh=00_AT-g9VW4nJE07iOF1bg5RnjukNa_6Q36RKTFaIjjVFLoKg&oe=62B413BC',
+    'https://scontent.fmba5-1.fna.fbcdn.net/v/t39.30808-6/255928068_3110814505804955_5090680127994516605_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeESpNGi8Ee1roFeoGgyDpkq6BpEAaAlCNToGkQBoCUI1EknDXubOPc7NKpNhiAxB9bW-PVrnGR61HcOAcM__hlF&_nc_ohc=7-YoYU0uwA4AX8_aCdC&_nc_ht=scontent.fmba5-1.fna&oh=00_AT_OOtBryp3k4mxAABygqMwiSHBvonWWsR-pY4O31KghPg&oe=62967896',
   text:
     "I as Mahdi I would like thank you all Microsoft /Elewa /iTalanta as well as Windle International Kenya and my deeply respected thanks goes to you Peter and Esther.Also especial thanks to the Windle scholarship Department Thank you all and God Bless You all.",
+},
+{
+    
+  id: 15,
+name: 'Kuol Samuel Thon',
+job: 'web developer',
+image:
+  'https://avatars.githubusercontent.com/u/93642034?s=400&u=2ac1cdcac92ca2a5f70d31c82526e9f7161a0431&v=4',
+text:
+  "I'm a self-motivated future Software Engineer at iTalanta Academy. What motivated me reflect back to Father of Artificial Intelligence John McCarthy theory of artificial intelligence. Beside my profession, I have been working as an Information Communication Technology Coach through Digital Literacy program implemented by UNHCR under Lutheran World Federation. In nutshell, i'm grateful to be an iTalanta Scholar and inspired to be future UI/UX designer.",
 },
   
 ];
