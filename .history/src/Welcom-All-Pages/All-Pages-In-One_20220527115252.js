@@ -14,7 +14,6 @@ function AllPagesInOne() {
               <Route path='/' element={<Home/>}/>
               <Route path='/DessaiKibeho' element={<DessaiKibeho/>} />
               <Route path='/Aljabana' element={<Aljabana/>} />
-              <Route path='/Mahdi' element={<Mahdi/>}/>
              
 
           </Routes>
