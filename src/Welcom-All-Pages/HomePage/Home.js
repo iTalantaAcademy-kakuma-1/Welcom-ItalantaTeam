@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-import LogoItalanta from "./image/home2.jpg"
+import LogoItalanta from "./image/people.jpg"
 import{Link} from "react-router-dom"
 import welcome from'./image/welcome.gif'
 import Esther from "./image/esther3.png"
